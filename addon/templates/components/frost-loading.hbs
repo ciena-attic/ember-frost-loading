@@ -1,2 +1,5 @@
-ember-frost-loading component
-{{yield}}
+{{#if (eq type 'ring')}}
+  {{frost-icon class="loading-ring" icon='loading/ring'}}
+{{else}}
+  {{frost-icon class="loading-ripple" icon='loading/ripple'}}
+{{/if}}

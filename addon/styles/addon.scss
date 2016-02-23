@@ -1,1 +1,15 @@
 @import 'node_modules/ember-frost-theme/scss/frost-theme';
+
+.frost-loading {
+  .frost-icons {
+    &.loading-ring {
+      width: 100px;
+      height: 100px;
+    }
+    &.loading-ripple {
+      width: 100px;
+      height: 100px;
+    }
+  }
+
+}
