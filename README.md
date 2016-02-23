@@ -10,7 +10,6 @@
 [![Travis][ci-img]][ci-url] [![Coveralls][cov-img]][cov-url] [![NPM][npm-img]][npm-url]
 
 # ember-frost-loading
-the drop-down select widget to rule them all
 
  * [Installation](#Installation)
  * [API](#API)
@@ -23,10 +22,21 @@ ember install ember-frost-loading
 ```
 
 ## API
-Coming soon
+| Attribute | Type | Value | Description |
+| --------- | ---- | ----- | ----------- |
+| `type` | `string` || **default**:ripple effect loading indicator |
+| | | `ring` | ring effect loading indicator |
 
 ## Examples
-Coming soon
+### Ring
+```handlebars
+{{frost-loading type='ring'}}
+```
+
+### Ripple
+```handlebars
+{{frost-loading}}
+```
 
 ## Development
 ### Setup
