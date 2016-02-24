@@ -24,7 +24,7 @@ ember install ember-frost-loading
 ## API
 | Attribute | Type | Value | Description |
 | --------- | ---- | ----- | ----------- |
-| `type` | `string` || **default**:ripple effect loading indicator |
+| `type` | `string` || **default**: ripple effect loading indicator |
 | | | `ring` | ring effect loading indicator |
 
 ## Examples
