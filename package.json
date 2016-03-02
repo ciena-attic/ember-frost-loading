@@ -2,7 +2,7 @@
   "name": "ember-frost-loading",
   "version": "1.0.3",
   "description": "The default blueprint for ember-cli addons.",
-  "frostGuideDirectory": "ui-components/content-views/list",
+  "frostGuideDirectory": "ui-components/indicator-controls/progress-indicators",
   "directories": {
     "doc": "doc",
     "test": "tests"
